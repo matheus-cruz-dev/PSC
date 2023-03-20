@@ -31,6 +31,8 @@ public class M013 {
             System.out.println("Não Achei o número");
         }
 
+        ler.close();
+
     }
 
     private static boolean estaContido(int numero, int[] numeros) {

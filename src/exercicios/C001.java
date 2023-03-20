@@ -2,8 +2,8 @@ package exercicios;
 
 import java.util.Scanner;
 
-/*C001 Faça um algoritmo que leia dois valores numéricos e efetue a multiplicação entre eles,
-caso o resultado deve ser apresentado caso seja maior que o primeiro valor lido ao
+/*C001 Faça um algoritmo que leia dois valores numéricos e efetue a multiplicação entre eles, 
+o resultado deve ser apresentado caso seja maior que o primeiro valor lido ao
 quadrado */
 
 public class C001 {
