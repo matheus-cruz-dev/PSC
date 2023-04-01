@@ -3,7 +3,7 @@ package aula14;
 public abstract class Caloria {
     private String descricao;
     private int qtdeCalorias;
-    private Double valor;
+    // private Double valor;
 
     public Caloria(String descricao, int qtdeCalorias) {
         super();

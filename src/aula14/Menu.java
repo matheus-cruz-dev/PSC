@@ -46,6 +46,8 @@ public class Menu {
         } else if ("Sobremesa".equals(item)) {
             this.sobremesaEscolhida = opcao;
         }
+
+        ler.close();
     }
 
     private void imprimirOpcoesMenu(String item) {
