@@ -47,7 +47,7 @@ public class Menu {
             this.sobremesaEscolhida = opcao;
         }
 
-        ler.close();
+        // ler.close();
     }
 
     private void imprimirOpcoesMenu(String item) {
