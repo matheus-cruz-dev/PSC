@@ -6,19 +6,19 @@ public class Tabuada {
 
         for (int i = 0; i < 10; i++) {
             if (i == 0) {
-             System.out.println("");
-             for (int j = 0; j < tabuada.length; j++) {
-                System.out.printf("%4d", i);
-             }   
+                System.out.println("");
+                for (int j = 0; j < tabuada.length; j++) {
+                    System.out.printf("%4d", i);
+                }
             }
+            System.out.println("");
             for (int j = 0; j < 10; j++) {
-                if(j == 0) {
+                if (j == 0) {
                     System.out.printf("%4d", j);
                 }
                 tabuada[i][j] = (i + 1) * (j + 1);
                 System.out.printf("%4d", tabuada[i][j]);
             }
-            System.out.println();
         }
     }
 }
