@@ -7,11 +7,11 @@ public class MainSemaforo {
         Scanner input = new Scanner(System.in);
 
         Semaforo s1 = new Semaforo(null);
-        
-        System.out.println("Informe a cor inicial do primeiro semáforo");
-        String cor = input.next();
 
-        // System.out.println(s1.Semaforo(cor)); // exibir objeto 
+        System.out.println("Informe a cor inicial do primeiro semáforo");
+        s1.setCor(input.next());;
+
+        System.out.println(s1.getCor()); // exibir objeto
 
         input.close();
 
